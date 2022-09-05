@@ -1,19 +1,14 @@
 public class Teste {
+    public static void main(String[] args) {
+        
+        Funcionario cargo = new Funcionario();
+        cargo.setComissao(new Gerente());
+        cargo.calcularComissao();
 
-	public static void main(String[] args) {
-		
-		BancaDeJornal b = new BancaDeJornal();
-		TelaComputador tela = new TelaComputador();
-		TelaCelular cel = new TelaCelular();
-		b.registerObserver(tela);
-		b.registerObserver(cel);
-		
-		Cliente pedro = new ClienteRevista(20, "Veja");
-		
-		pedro.valor = b.comprar(pedro, 17);
-		
-		
-		
-		
-	}
+        System.out.println("--------------");
+
+        cargo.setComissao(new Vendedor());
+        cargo.calcularComissao();
+        
+    }
 }
