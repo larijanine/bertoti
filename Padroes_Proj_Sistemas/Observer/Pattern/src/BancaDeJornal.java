@@ -1,5 +1,3 @@
-package TesteObserver;
-
 import java.util.ArrayList;
 
 public class BancaDeJornal implements Subject {

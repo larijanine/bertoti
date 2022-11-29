@@ -1,5 +1,3 @@
-package antipattern;
-
 public class Imagem {
 	
 	private String nome;

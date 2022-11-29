@@ -1,5 +1,3 @@
-package antipattern;
-
 public class Texto {
 	
 	private String nome;

@@ -1,5 +1,3 @@
-package TesteObserver;
-
 public class TelaComputador implements Observer {
 	
 	public void update(double valor){

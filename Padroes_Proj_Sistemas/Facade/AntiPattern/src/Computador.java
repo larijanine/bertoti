@@ -1,5 +1,3 @@
-package antipattern;
-
 public class Computador {
 	
 	private Memoria memoria;

@@ -1,5 +1,3 @@
-package TesteObserver;
-
 public class ClienteRevista {
 	
 	public double valor;

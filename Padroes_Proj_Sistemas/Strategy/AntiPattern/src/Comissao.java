@@ -1,5 +1,3 @@
-package antipattern;
-
 public class Comissao {
 	
 	public double aplicarComissao(double valor) {

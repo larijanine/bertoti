@@ -1,5 +1,3 @@
-package robson;
-
 public class Questao implements ElementoBasico{
 	
 	private String descricao;

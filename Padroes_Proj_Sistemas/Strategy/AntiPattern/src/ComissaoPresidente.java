@@ -1,5 +1,3 @@
-package antipattern;
-
 public class ComissaoPresidente extends Comissao {
 	@Override
 	public double aplicarComissao(double valor) {
